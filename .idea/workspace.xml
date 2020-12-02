@@ -11,10 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Todo funciona">
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/order_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/graphql/types/image_decorator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/my_store/image_decorator.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/paperclip.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/spree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/spree.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +157,7 @@
       <updated>1604110455210</updated>
       <workItem from="1604110456606" duration="484000" />
       <workItem from="1606608141846" duration="8961000" />
-      <workItem from="1606843922618" duration="1859000" />
+      <workItem from="1606843922618" duration="7366000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -169,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606612731987</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Todo funciona">
+      <created>1606853512737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606853512737</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,9 +219,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1606850933137" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606853506561">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606885556688">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1606853506561" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1606885556688" />
   </component>
 </project>

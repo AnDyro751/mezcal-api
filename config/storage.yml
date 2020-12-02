@@ -1,3 +1,9 @@
+amazon:
+  service: S3
+  access_key_id: "AKIAYAOMZIQZPJCWNBJJ"
+  secret_access_key: "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"
+  region: "us-east-1"
+  bucket: "waydda-qr"
 test:
   service: Disk
   root: <%= Rails.root.join("tmp/storage") %>

@@ -22,6 +22,7 @@ gem 'solidus_reviews', github: 'solidusio-contrib/solidus_reviews'
 gem "graphiql-rails"
 gem "aws-sdk-s3", require: false
 gem 'rack-cors', :require => 'rack/cors'
+gem 'fog-aws'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
