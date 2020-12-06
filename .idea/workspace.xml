@@ -11,14 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Todo funciona">
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/variant_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apolloClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apolloClient.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/spree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/spree.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +158,7 @@
       <workItem from="1606608141846" duration="8961000" />
       <workItem from="1606843922618" duration="7366000" />
       <workItem from="1606986148989" duration="6820000" />
-      <workItem from="1607277124794" duration="4269000" />
+      <workItem from="1607277124794" duration="9731000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606853512737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Todo funciona">
+      <created>1607283451828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607283451828</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,13 +223,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1606612744898" />
-    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1607280721602">
+    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1607286746857">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607280721602" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607280921191">
+    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607286746857" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607291408304">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607280921191" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607291408304" />
   </component>
 </project>
