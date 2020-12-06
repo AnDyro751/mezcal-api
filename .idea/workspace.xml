@@ -11,14 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Todo funciona">
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/image_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/my_store/image_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/paperclip.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/graphql/types/variant_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/spree.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/spree.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/storage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/storage.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +26,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../JS/mezcal" />
   </component>
   <component name="ProjectId" id="1jcjpBByHZlD5UDcAdps7F84UU4" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -46,6 +46,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.settings.patched" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: demo-ecommerce">
     <configuration name="Development: demo-ecommerce" type="RailsRunConfigurationType" factoryName="Rails">
@@ -158,6 +159,8 @@
       <workItem from="1604110456606" duration="484000" />
       <workItem from="1606608141846" duration="8961000" />
       <workItem from="1606843922618" duration="7366000" />
+      <workItem from="1606986148989" duration="6820000" />
+      <workItem from="1607277124794" duration="4269000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -215,13 +218,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1606612744898" />
-    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1606850933137">
+    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1607280721602">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1606850933137" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1606885556688">
+    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607280721602" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607280921191">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1606885556688" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607280921191" />
   </component>
 </project>
