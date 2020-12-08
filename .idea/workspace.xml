@@ -10,14 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Al parecer solo se tenían que eliminar las cookies">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/emptyObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Add toast">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +156,8 @@
       <workItem from="1606608141846" duration="8961000" />
       <workItem from="1606843922618" duration="7366000" />
       <workItem from="1606986148989" duration="6820000" />
-      <workItem from="1607277124794" duration="12187000" />
+      <workItem from="1607277124794" duration="12208000" />
+      <workItem from="1607452125183" duration="5095000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -204,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607291660869</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add toast">
+      <created>1607306542888</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607306542888</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +229,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Todo funciona" />
     <MESSAGE value="Al parecer solo se tenían que eliminar las cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Al parecer solo se tenían que eliminar las cookies" />
+    <MESSAGE value="Add toast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add toast" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1604110938731">
@@ -240,13 +245,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1606612744898" />
-    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1607286746857">
+    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1607452206108">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607286746857" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607306053736">
+    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607452206108" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607452202998">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607306053736" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607452202998" />
   </component>
 </project>
