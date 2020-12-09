@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Update context">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +155,7 @@
       <workItem from="1606843922618" duration="7366000" />
       <workItem from="1606986148989" duration="6820000" />
       <workItem from="1607277124794" duration="12208000" />
-      <workItem from="1607452125183" duration="8349000" />
+      <workItem from="1607452125183" duration="8431000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607478687907</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update context">
+      <created>1607478714441</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607478714441</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,10 +274,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1606612744898" />
-    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1607478071661">
+    <state x="389" y="132" width="587" height="502" key="find.popup" timestamp="1607478745600">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607478071661" />
+    <state x="389" y="132" width="587" height="502" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607478745600" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607478039141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
