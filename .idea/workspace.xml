@@ -10,11 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Cart demo">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Update cart and line items">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/LineItem/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/EmptyObjects/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +161,7 @@
       <workItem from="1607277124794" duration="12208000" />
       <workItem from="1607452125183" duration="10621000" />
       <workItem from="1607529965769" duration="16749000" />
-      <workItem from="1607615927826" duration="5268000" />
+      <workItem from="1607615927826" duration="6612000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607550098879</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update cart and line items">
+      <created>1607622434599</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607622434599</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="Init cart page" />
     <MESSAGE value="Update line items" />
     <MESSAGE value="Cart demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cart demo" />
+    <MESSAGE value="Update cart and line items" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update cart and line items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1604110938731">
@@ -311,10 +320,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1607478813976" />
-    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607622283166">
+    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607624825486">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607622283166" />
+    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607624825486" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607622239172">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
