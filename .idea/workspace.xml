@@ -10,14 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Update line items">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Cart demo">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/removeFromCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/updateCartQuantity.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/line_item_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/line_item_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +160,7 @@
       <workItem from="1606986148989" duration="6820000" />
       <workItem from="1607277124794" duration="12208000" />
       <workItem from="1607452125183" duration="10621000" />
-      <workItem from="1607529965769" duration="14009000" />
+      <workItem from="1607529965769" duration="16749000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607541069612</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Cart demo">
+      <created>1607550098879</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607550098879</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +295,8 @@
     <MESSAGE value="Add label" />
     <MESSAGE value="Init cart page" />
     <MESSAGE value="Update line items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update line items" />
+    <MESSAGE value="Cart demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cart demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1604110938731">
@@ -304,13 +311,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1607478813976" />
-    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607549709588">
+    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607557951307">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607549709588" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607548060031">
+    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607557951307" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607557703796">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607548060031" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607557703796" />
   </component>
 </project>
