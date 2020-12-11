@@ -10,12 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init product query">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/gallery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/gallery/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Minimum show price">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -46,6 +45,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.settings.patched" value="true" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunManager" selected="Rails.Development: demo-ecommerce">
     <configuration name="Development: demo-ecommerce" type="RailsRunConfigurationType" factoryName="Rails">
@@ -162,7 +162,7 @@
       <workItem from="1607277124794" duration="12208000" />
       <workItem from="1607452125183" duration="10621000" />
       <workItem from="1607529965769" duration="16749000" />
-      <workItem from="1607615927826" duration="11202000" />
+      <workItem from="1607615927826" duration="17513000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -297,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607627884905</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Minimum show price">
+      <created>1607644784534</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607644784534</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +336,8 @@
     <MESSAGE value="Update cart and line items" />
     <MESSAGE value="Add useState and show toast after remove cart item" />
     <MESSAGE value="Init product query" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init product query" />
+    <MESSAGE value="Minimum show price" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minimum show price" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1604110938731">
@@ -344,13 +352,17 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1607624988965" />
-    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607644750026">
+    <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607648950020">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607644750026" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607629027045">
+    <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
+    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607650840143">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607629027045" />
+    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607650840143" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607651291201">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607651291201" />
   </component>
 </project>
