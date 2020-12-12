@@ -10,15 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Minimum show price">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apolloClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apolloClient.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Update order context">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +161,7 @@
       <workItem from="1607452125183" duration="10621000" />
       <workItem from="1607529965769" duration="16749000" />
       <workItem from="1607615927826" duration="17513000" />
-      <workItem from="1607797143156" duration="3018000" />
+      <workItem from="1607797143156" duration="3336000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -308,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607644784534</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Update order context">
+      <created>1607801267471</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607801267471</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +343,8 @@
     <MESSAGE value="Add useState and show toast after remove cart item" />
     <MESSAGE value="Init product query" />
     <MESSAGE value="Minimum show price" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minimum show price" />
+    <MESSAGE value="Update order context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update order context" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="141" width="424" height="479" key="FileChooserDialogImpl" timestamp="1604110938731">
@@ -360,13 +363,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607650840143">
+    <state x="389" y="132" width="699" height="564" key="find.popup" timestamp="1607801556552">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607650840143" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607801157939">
+    <state x="389" y="132" width="699" height="564" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607801556552" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607801415794">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607801157939" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607801415794" />
   </component>
 </project>
