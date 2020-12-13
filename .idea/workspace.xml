@@ -10,14 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Get product with variant">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Autoselect variant">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +162,7 @@
       <workItem from="1607452125183" duration="10621000" />
       <workItem from="1607529965769" duration="16749000" />
       <workItem from="1607615927826" duration="17513000" />
-      <workItem from="1607797143156" duration="31499000" />
+      <workItem from="1607797143156" duration="32639000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -378,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607885306895</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Autoselect variant">
+      <created>1607887552611</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607887552611</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +423,8 @@
     <MESSAGE value="Gallery loading animation" />
     <MESSAGE value="Loaders" />
     <MESSAGE value="Get product with variant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get product with variant" />
+    <MESSAGE value="Autoselect variant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autoselect variant" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="99" width="1166" height="568" key="DiffContextDialog" timestamp="1607826481828">
@@ -439,10 +443,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="509" y="89" width="337" height="583" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1607826369553" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1607884458261">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1607887559530">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1607884458261" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1607887559530" />
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607648950020">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -451,9 +455,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="132" width="699" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607872945540" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607887340679">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607890585131">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607887340679" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607890585131" />
   </component>
 </project>
