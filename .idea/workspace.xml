@@ -10,11 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Loaders">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Get product with variant">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +166,7 @@
       <workItem from="1607452125183" duration="10621000" />
       <workItem from="1607529965769" duration="16749000" />
       <workItem from="1607615927826" duration="17513000" />
-      <workItem from="1607797143156" duration="29358000" />
+      <workItem from="1607797143156" duration="31499000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -368,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607884451385</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Get product with variant">
+      <created>1607885306895</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607885306895</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +419,8 @@
     <MESSAGE value="Solucionamos la parte de la orden 3:" />
     <MESSAGE value="Gallery loading animation" />
     <MESSAGE value="Loaders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loaders" />
+    <MESSAGE value="Get product with variant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get product with variant" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="99" width="1166" height="568" key="DiffContextDialog" timestamp="1607826481828">
@@ -440,9 +451,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="389" y="132" width="699" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1607872945540" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607885138051">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1607887340679">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607885138051" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1607887340679" />
   </component>
 </project>
