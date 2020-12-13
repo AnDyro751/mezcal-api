@@ -1,4 +1,5 @@
 include Spree::Core::ControllerHelpers
+require_relative 'review_item'
 module Graphql
   module Types
     module ProductDecorator
@@ -6,6 +7,7 @@ module Graphql
         base.field :depth_variants, SolidusGraphqlApi::Types::Variant.connection_type, null: true
         base.field :taxons, SolidusGraphqlApi::Types::Taxon.connection_type, null: true
         base.field :optionTypes, SolidusGraphqlApi::Types::OptionType.connection_type, null: true
+        base.field :reviews, Graphql::Types::ReviewItem.connection_type, null: true
       end
 
       def depth_variants
@@ -14,6 +16,10 @@ module Graphql
 
       def taxons
         object.taxons
+      end
+
+      def reviews
+        object.reviews
       end
 
       def optionTypes
