@@ -10,18 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Reviews query and type">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/Selecter/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/Selecter/item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Add reviews in product">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +160,7 @@
       <workItem from="1607452125183" duration="10621000" />
       <workItem from="1607529965769" duration="16749000" />
       <workItem from="1607615927826" duration="17513000" />
-      <workItem from="1607797143156" duration="44176000" />
+      <workItem from="1607797143156" duration="44264000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -409,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607892953706</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add reviews in product">
+      <created>1607920639806</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607920639806</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add toast" />
     <MESSAGE value="Select for add more" />
     <MESSAGE value="Disable button" />
     <MESSAGE value="Update context" />
@@ -453,7 +450,8 @@
     <MESSAGE value="Select first image" />
     <MESSAGE value="Mostramos las categorías del producto" />
     <MESSAGE value="Reviews query and type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reviews query and type" />
+    <MESSAGE value="Add reviews in product" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add reviews in product" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="99" width="1166" height="568" key="DiffContextDialog" timestamp="1607826481828">
