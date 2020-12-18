@@ -8,7 +8,7 @@ module Graphql
       field :title, String, null: true
       field :review, String, null: true
       field :approved, String, null: true
-      field :created_at, String, null: true
+      field :created_at, GraphQL::Types::ISO8601DateTime, null: true
       field :locale, String, null: true
       field :verified_purchaser, Boolean, null: true
     end
