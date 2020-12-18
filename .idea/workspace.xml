@@ -10,29 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Add reviews in product">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/CouponsInfo/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/TotalInfo/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/demo/remove_coupon_code.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/mutations/remove_coupon_code.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/resolvers/create_order_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/adjustment_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/adjustment_item.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/demo_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/promotion_code_item.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/query_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/remove_coupon_code.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/remove_coupon_input_decotaror.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/demo.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/cart.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Add product and promotion code">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ApplyCoupon/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/applyCouponCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/CouponsInfo/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/CouponsInfo/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/order_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/order_decorator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/review_item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/review_item.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +175,7 @@
       <workItem from="1607797143156" duration="44264000" />
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
-      <workItem from="1608227401636" duration="13888000" />
+      <workItem from="1608227401636" duration="17475000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -440,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607920639806</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add product and promotion code">
+      <created>1608257849997</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1608257849997</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Select for add more" />
     <MESSAGE value="Disable button" />
     <MESSAGE value="Update context" />
     <MESSAGE value="Add label" />
@@ -484,7 +472,8 @@
     <MESSAGE value="Mostramos las categorías del producto" />
     <MESSAGE value="Reviews query and type" />
     <MESSAGE value="Add reviews in product" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add reviews in product" />
+    <MESSAGE value="Add product and promotion code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add product and promotion code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
@@ -515,13 +504,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="699" height="592" key="find.popup" timestamp="1608254750127">
+    <state x="389" y="132" width="699" height="592" key="find.popup" timestamp="1608267669203">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="699" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608254750127" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608257337540">
+    <state x="389" y="132" width="699" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608267669203" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608266117876">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608257337540" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608266117876" />
   </component>
 </project>
