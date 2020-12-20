@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Agregamos y eliminamos cupón de descuento">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ApplyCoupon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ApplyCoupon/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/CouponsInfo/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/CouponsInfo/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/TotalInfo/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/TotalInfo/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -174,7 +175,7 @@
       <workItem from="1607797143156" duration="44264000" />
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
-      <workItem from="1608227401636" duration="21394000" />
+      <workItem from="1608227401636" duration="21543000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -442,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608490021863</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Agregamos y eliminamos cupón de descuento">
+      <created>1608490194642</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1608490194642</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,10 +525,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="699" height="592" key="find.popup" timestamp="1608490057070">
+    <state x="389" y="132" width="699" height="592" key="find.popup" timestamp="1608490301579">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="699" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608490057070" />
+    <state x="389" y="132" width="699" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608490301579" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608489462258">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
