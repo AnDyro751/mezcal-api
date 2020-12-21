@@ -10,17 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init checkout page">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Address form completed">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Address/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Address/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/SetAddressData/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/SetAddressData/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/SetEmailInput/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/SetEmailInput/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/base.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/base.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/query_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/query_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +175,7 @@
       <workItem from="1607797143156" duration="44264000" />
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
-      <workItem from="1608227401636" duration="26906000" />
+      <workItem from="1608227401636" duration="27911000" />
     </task>
     <task id="LOCAL-00001" summary="Todo funciona">
       <created>1606612672023</created>
@@ -470,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608496475526</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Address form completed">
+      <created>1608514487440</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1608514487440</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +490,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update line items" />
     <MESSAGE value="Cart demo" />
     <MESSAGE value="Update cart and line items" />
     <MESSAGE value="Add useState and show toast after remove cart item" />
@@ -514,7 +514,8 @@
     <MESSAGE value="Agregamos y eliminamos cupón de descuento" />
     <MESSAGE value="Mostramos total de descuentos" />
     <MESSAGE value="Init checkout page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init checkout page" />
+    <MESSAGE value="Address form completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Address form completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
@@ -545,13 +546,13 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="699" height="592" key="find.popup" timestamp="1608513935468">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608515423491">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="699" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608513935468" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608514035535">
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608515423491" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608515158751">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608514035535" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608515158751" />
   </component>
 </project>
