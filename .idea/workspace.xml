@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Select shiping rate">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/selectShippingRate.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Select shipping rate mutation">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingRate/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingRate/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -175,14 +174,7 @@
       <workItem from="1607797143156" duration="44264000" />
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
-      <workItem from="1608227401636" duration="42237000" />
-    </task>
-    <task id="LOCAL-00001" summary="Todo funciona">
-      <created>1606612672023</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606612672023</updated>
+      <workItem from="1608227401636" duration="43607000" />
     </task>
     <task id="LOCAL-00002" summary="Todo funciona">
       <created>1606612731987</created>
@@ -520,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608579677138</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Select shipping rate mutation">
+      <created>1608580311645</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1608580311646</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add taxons in product query" />
     <MESSAGE value="Init new header" />
     <MESSAGE value="Antes de cagarla con apollo" />
     <MESSAGE value="Solucionamos la parte de la orden 3:" />
@@ -564,7 +562,8 @@
     <MESSAGE value="To next state order" />
     <MESSAGE value="Redirect to /checkout when shipments array is empty" />
     <MESSAGE value="Select shiping rate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Select shiping rate" />
+    <MESSAGE value="Select shipping rate mutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Select shipping rate mutation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
