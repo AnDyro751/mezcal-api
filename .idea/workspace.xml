@@ -10,8 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Defaul shippment selected">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Redirect to payment page">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/payment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/delivery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/delivery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../solidus_graphql_api" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -174,14 +178,7 @@
       <workItem from="1607797143156" duration="44264000" />
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
-      <workItem from="1608227401636" duration="43869000" />
-    </task>
-    <task id="LOCAL-00003" summary="Todo funciona">
-      <created>1606853512737</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1606853512737</updated>
+      <workItem from="1608227401636" duration="44928000" />
     </task>
     <task id="LOCAL-00004" summary="Todo funciona">
       <created>1607283451828</created>
@@ -519,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608590981888</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Redirect to payment page">
+      <created>1608591239860</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1608591239860</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +542,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Antes de cagarla con apollo" />
     <MESSAGE value="Solucionamos la parte de la orden 3:" />
     <MESSAGE value="Gallery loading animation" />
     <MESSAGE value="Loaders" />
@@ -563,7 +566,8 @@
     <MESSAGE value="Select shiping rate" />
     <MESSAGE value="Select shipping rate mutation" />
     <MESSAGE value="Defaul shippment selected" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defaul shippment selected" />
+    <MESSAGE value="Redirect to payment page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redirect to payment page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
@@ -586,22 +590,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="509" y="89" width="337" height="583" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1607826369553" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1608568542592">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1608591247506">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1608568542592" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1608591247506" />
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607648950020">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="754" y="15" width="1391" height="753" key="find.popup" timestamp="1608579989011">
-      <screen x="0" y="0" width="2646" height="768" />
-    </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608577657219" />
-    <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608577413340">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608592102890">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608577413340" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608592102890" />
+    <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608592274347">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608592274347" />
   </component>
 </project>
