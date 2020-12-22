@@ -11,13 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Todo funciona">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/products/addProductToCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/spree/layouts/spree_application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,14 +177,7 @@
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
       <workItem from="1608227401636" duration="52759000" />
-      <workItem from="1608647455599" duration="14166000" />
-    </task>
-    <task id="LOCAL-00012" summary="Add label">
-      <created>1607478806047</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1607478806047</updated>
+      <workItem from="1608647455599" duration="14948000" />
     </task>
     <task id="LOCAL-00013" summary="Init cart page">
       <created>1607534978801</created>
@@ -526,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608674429327</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Todo funciona">
+      <created>1608676044432</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1608676044432</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,14 +597,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608675930371">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608676123916">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608675930371" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608676123916" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608675881433">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608676117380">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608675881433" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608676117380" />
   </component>
 </project>
