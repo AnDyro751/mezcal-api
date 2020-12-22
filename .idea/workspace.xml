@@ -11,7 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Card form">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/CardForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/CardForm/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/runQuery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apolloClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apolloClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/initApollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/initApollo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/withApollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/withApollo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +186,7 @@
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
       <workItem from="1608227401636" duration="52759000" />
+      <workItem from="1608647455599" duration="756000" />
     </task>
     <task id="LOCAL-00007" summary="Add toast">
       <created>1607306542888</created>
@@ -594,14 +606,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608602238266">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608648193335">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608602238266" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608648193335" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608602225769">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608648213309">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608602225769" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608648213309" />
   </component>
 </project>
