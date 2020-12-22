@@ -9,7 +9,6 @@
   <%= render partial: 'spree/shared/head' %>
 </head>
 <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
-
 <div class="container">
 
   <%= render partial: 'spree/shared/header' %>
@@ -30,9 +29,7 @@
   </div>
 
   <%= render partial: 'spree/shared/footer' %>
-  <% if params["console"] %>
-    <%= console %>
-  <% end %>
+
 
 </div>
 
