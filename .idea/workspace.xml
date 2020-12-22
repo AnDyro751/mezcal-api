@@ -10,12 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Show available payment methods">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/CardForm/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/PaymentMethod/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/PaymentMethod/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Card form">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/CardForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/CardForm/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,14 +174,7 @@
       <workItem from="1607797143156" duration="44264000" />
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
-      <workItem from="1608227401636" duration="52565000" />
-    </task>
-    <task id="LOCAL-00006" summary="Al parecer solo se tenían que eliminar las cookies">
-      <created>1607291660869</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1607291660869</updated>
+      <workItem from="1608227401636" duration="52759000" />
     </task>
     <task id="LOCAL-00007" summary="Add toast">
       <created>1607306542888</created>
@@ -523,7 +512,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608602288779</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Card form">
+      <created>1608613293011</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1608613293012</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +538,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Loaders" />
     <MESSAGE value="Get product with variant" />
     <MESSAGE value="Autoselect variant" />
     <MESSAGE value="Select first image" />
@@ -567,7 +562,8 @@
     <MESSAGE value="Redirect to payment page" />
     <MESSAGE value="Init payment page" />
     <MESSAGE value="Show available payment methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Show available payment methods" />
+    <MESSAGE value="Card form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Card form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
