@@ -7,12 +7,12 @@ module Graphql
         base.field :item_count, GraphQL::Types::Int, null: true
         base.field :depth_line_items, SolidusGraphqlApi::Types::LineItem.connection_type, null: true
         base.field :adjustments, Graphql::Types::AdjustmentItem.connection_type, null: true
-        # base.field :shipments, SolidusGraphqlApi::Types::Shipment.connection_type, null: true
+        base.field :available_payment_methods, SolidusGraphqlApi::Types::PaymentMethod.connection_type, null: true
       end
 
-      # def shipments
-      #   object.shipments #.includes(shipping_rates: [:shipping_method])
-      # end
+      def available_payment_methods
+        object.available_payment_methods
+      end
 
       def test
         object.item_count

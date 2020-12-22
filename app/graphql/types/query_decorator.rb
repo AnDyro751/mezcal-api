@@ -9,16 +9,24 @@ module Graphql
                    description: 'Find country by iso' do
           argument :iso_code, GraphQL::Types::String, required: true
         end
-        # base.field :products, Product.connection_type,
-        #            null: false,
-        #            description: 'Supported Products.' do
-        #   argument :query, Types::InputObjects::ProductsQueryInput, required: false
-        # end
+        base.field :payment_methods,
+                   SolidusGraphqlApi::Types::PaymentMethod.connection_type,
+                   null: true,
+                   description: "Show payment method"
+      end
+
+      def payment_methods
+        return nil if current_order.nil?
+        current_order.available_payment_methods
       end
 
       def country_by_iso(iso_code: "")
         # puts "-----------------#{iso_code}----------------"
         Spree::Country.find_by(iso: iso_code)
+      end
+
+      def current_order
+        context[:current_order]
       end
 
       SolidusGraphqlApi::Types::Query.prepend self
