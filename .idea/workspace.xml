@@ -12,10 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="State order">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,14 +176,7 @@
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
       <workItem from="1608227401636" duration="52759000" />
-      <workItem from="1608647455599" duration="23946000" />
-    </task>
-    <task id="LOCAL-00018" summary="Init product query">
-      <created>1607627614044</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1607627614044</updated>
+      <workItem from="1608647455599" duration="24032000" />
     </task>
     <task id="LOCAL-00019" summary="Init product query">
       <created>1607627884905</created>
@@ -524,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608695050542</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="State order">
+      <created>1608695810710</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1608695810710</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
