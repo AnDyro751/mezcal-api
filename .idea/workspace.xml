@@ -10,13 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Select shippment types">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="State order">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingRate/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingRate/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/nextState.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/nextState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/selectShippingRate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/selectShippingRate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,14 +179,7 @@
       <workItem from="1608061328275" duration="2109000" />
       <workItem from="1608074051994" duration="12841000" />
       <workItem from="1608227401636" duration="52759000" />
-      <workItem from="1608647455599" duration="23175000" />
-    </task>
-    <task id="LOCAL-00017" summary="Add useState and show toast after remove cart item">
-      <created>1607624981870</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1607624981871</updated>
+      <workItem from="1608647455599" duration="23946000" />
     </task>
     <task id="LOCAL-00018" summary="Init product query">
       <created>1607627614044</created>
@@ -526,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608693545519</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="State order">
+      <created>1608695050542</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1608695050542</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +543,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add coupon" />
     <MESSAGE value="Agregamos y eliminamos cupón de descuento" />
     <MESSAGE value="Mostramos total de descuentos" />
     <MESSAGE value="Init checkout page" />
@@ -570,7 +567,8 @@
     <MESSAGE value="Todo funciona" />
     <MESSAGE value="Sin stock message" />
     <MESSAGE value="Select shippment types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Select shippment types" />
+    <MESSAGE value="State order" />
+    <option name="LAST_COMMIT_MESSAGE" value="State order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
@@ -601,14 +599,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608695019130">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608695792569">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608695019130" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608695792569" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608694742736">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608695766128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608694742736" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608695766128" />
   </component>
 </project>
