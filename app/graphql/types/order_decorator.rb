@@ -7,6 +7,7 @@ module Graphql
         base.field :item_count, GraphQL::Types::Int, null: true
         base.field :adjustments, Graphql::Types::AdjustmentItem.connection_type, null: true
         base.field :available_payment_methods, SolidusGraphqlApi::Types::PaymentMethod.connection_type, null: true
+        base.field :shipments, SolidusGraphqlApi::Types::Shipment.connection_type, null: true
       end
 
       def available_payment_methods
@@ -24,6 +25,13 @@ module Graphql
       def adjustments
         object.adjustments.includes(:promotion_code)
       end
+
+      def shipments
+        object.shipments.includes(:stock_location)
+      end
+
+      #       app/graphql/types/order_decorator.rb:30:in `shipments'
+      # app/graphql/types/order_decorator.rb:30:in `shipments'
 
       SolidusGraphqlApi::Types::Order.prepend self
     end
