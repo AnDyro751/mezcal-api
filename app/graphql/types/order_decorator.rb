@@ -5,7 +5,6 @@ module Graphql
     module OrderDecorator
       def self.prepended(base)
         base.field :item_count, GraphQL::Types::Int, null: true
-        base.field :depth_line_items, SolidusGraphqlApi::Types::LineItem.connection_type, null: true
         base.field :adjustments, Graphql::Types::AdjustmentItem.connection_type, null: true
         base.field :available_payment_methods, SolidusGraphqlApi::Types::PaymentMethod.connection_type, null: true
       end
