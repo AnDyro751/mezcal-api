@@ -5,6 +5,11 @@ Rails.application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Solidus relies on it being the default of "spree"
   mount Spree::Core::Engine, at: '/'
+  Spree::Core::Engine.routes.draw do
+    get "/sale" => "orders#some_action"
+    get '/create_checkout' => 'orders#some_action'
+  end
+
   # match "/graphql", to: "spree/graphql#execute", via: [:options]
   if Rails.env.development?
     mount GraphiQL::Rails::Engine, at: "/graphiql", graphql_path: "/graphql"
