@@ -10,12 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Ya arreglamos apollo 3:">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/[slug].jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/AddProductToCart/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Creación de orden y actualización del state">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/gallery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/gallery/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,14 +178,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="19525000" />
-    </task>
-    <task id="LOCAL-00023" summary="Add taxons in product query">
-      <created>1607803758345</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1607803758345</updated>
+      <workItem from="1608748947957" duration="19806000" />
     </task>
     <task id="LOCAL-00024" summary="Init new header">
       <created>1607819360333</created>
@@ -527,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608855883927</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Creación de orden y actualización del state">
+      <created>1608856302073</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1608856302073</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +542,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Set email mutations" />
     <MESSAGE value="Remove console" />
     <MESSAGE value="Add address to checkout" />
     <MESSAGE value="Vamos a mostrar los shipments y eliminamos el n+1 query" />
@@ -571,7 +566,8 @@
     <MESSAGE value="State order_decorator.rb&#10;&#10;Flujo:&#10;Address&#10;Delivery&#10;Payment&#10;Confirm &#10;Complete" />
     <MESSAGE value="Se han arreglado los problemas de los cookies" />
     <MESSAGE value="Ya arreglamos apollo 3:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ya arreglamos apollo 3:" />
+    <MESSAGE value="Creación de orden y actualización del state" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de orden y actualización del state" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -615,9 +611,9 @@
     </state>
     <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608856262375" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608856086312">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608856320564">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608856086312" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608856320564" />
   </component>
 </project>
