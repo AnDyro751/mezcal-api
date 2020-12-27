@@ -10,16 +10,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Todas las páginas ya usan la nueva forma del apollo">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/createCheckout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/my_store/spree/orders_controller_decorator.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/stripe_checkout_item.rb" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Create checkout in mutation">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Data/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/ListProducts/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Loaders/DataLoader/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Loaders/ListProductsLoader/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Loaders/ListProductsLoader/item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Stepper/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/checkout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/my_store/order_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/my_store/order_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../JS/mezcal" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1jcjpBByHZlD5UDcAdps7F84UU4" />
@@ -187,14 +194,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="26289000" />
-    </task>
-    <task id="LOCAL-00026" summary="Antes de cagarla con apollo">
-      <created>1607827536125</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1607827536125</updated>
+      <workItem from="1608748947957" duration="35089000" />
     </task>
     <task id="LOCAL-00027" summary="Solucionamos la parte de la orden 3:">
       <created>1607874111780</created>
@@ -532,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608857994181</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Create checkout in mutation">
+      <created>1608930744850</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1608930744850</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +558,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Vamos a mostrar los shipments y eliminamos el n+1 query" />
     <MESSAGE value="To next state order" />
     <MESSAGE value="Redirect to /checkout when shipments array is empty" />
     <MESSAGE value="Select shiping rate" />
@@ -576,7 +582,8 @@
     <MESSAGE value="Creación de orden y actualización del state" />
     <MESSAGE value="Pequeños detalles de la galería" />
     <MESSAGE value="Todas las páginas ya usan la nueva forma del apollo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todas las páginas ya usan la nueva forma del apollo" />
+    <MESSAGE value="Create checkout in mutation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create checkout in mutation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -615,14 +622,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608930410861">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1608955874594">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608930410861" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1608955874594" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608929966785">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1608953570009">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608929966785" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1608953570009" />
   </component>
 </project>

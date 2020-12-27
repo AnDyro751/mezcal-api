@@ -16,6 +16,7 @@ module Graphql
         Stripe.api_key = 'sk_test_nLhx5k3K0NFLM06YC7nZAQVW003TPd9B70'
         session = Stripe::Checkout::Session
                       .create({
+                                  customer_email: current_order.email || nil,
                                   payment_method_types: ['card'],
                                   line_items: [{
                                                    price_data: {
