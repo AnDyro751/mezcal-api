@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Agregamos el email a la orden">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Delivery/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/UserData/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/UserData/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Agregar el required">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -183,14 +180,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="47321000" />
-    </task>
-    <task id="LOCAL-00031" summary="Autoselect variant">
-      <created>1607887552611</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1607887552611</updated>
+      <workItem from="1608748947957" duration="47876000" />
     </task>
     <task id="LOCAL-00032" summary="Select first image">
       <created>1607890807388</created>
@@ -528,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609130241810</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Agregar el required">
+      <created>1609180102182</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1609180102182</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Defaul shippment selected" />
     <MESSAGE value="Redirect to payment page" />
     <MESSAGE value="Init payment page" />
     <MESSAGE value="Show available payment methods" />
@@ -572,7 +568,8 @@
     <MESSAGE value="Init stepper icon" />
     <MESSAGE value="Two steps" />
     <MESSAGE value="Agregamos el email a la orden" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregamos el email a la orden" />
+    <MESSAGE value="Agregar el required" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar el required" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
