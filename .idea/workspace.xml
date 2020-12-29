@@ -10,11 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Update address">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Select default address in checkout">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,14 +180,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="57009000" />
-    </task>
-    <task id="LOCAL-00039" summary="Agregamos y eliminamos cupón de descuento">
-      <created>1608490194642</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1608490194642</updated>
+      <workItem from="1608748947957" duration="57417000" />
     </task>
     <task id="LOCAL-00040" summary="Mostramos total de descuentos">
       <created>1608490359561</created>
@@ -528,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609213966478</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Select default address in checkout">
+      <created>1609215505908</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1609215505908</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Replace" />
     <MESSAGE value="New lightbox" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Bugs pendejos 3:" />
@@ -572,7 +568,8 @@
     <MESSAGE value="Validations in second step" />
     <MESSAGE value="Update email before update address" />
     <MESSAGE value="Update address" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update address" />
+    <MESSAGE value="Select default address in checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Select default address in checkout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -599,10 +596,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="509" y="89" width="337" height="583" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1608673730950" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1609127930567">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1609215504140">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1609127930567" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1609215504140" />
     <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608825432363">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
