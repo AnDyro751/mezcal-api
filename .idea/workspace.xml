@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Update email before update address">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/validateValues.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/UserData/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/UserData/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -180,14 +182,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="54307000" />
-    </task>
-    <task id="LOCAL-00037" summary="Add coupon">
-      <created>1608267714389</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1608267714389</updated>
+      <workItem from="1608748947957" duration="55710000" />
     </task>
     <task id="LOCAL-00038" summary="Agregamos y eliminamos cupón de descuento">
       <created>1608490021863</created>
@@ -525,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609211985432</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Update email before update address">
+      <created>1609212149402</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1609212149402</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,14 +610,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1609204615869">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1609213838578">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1609204615869" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1609213838578" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609211464387">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609213443554">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1609211464387" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1609213443554" />
   </component>
 </project>
