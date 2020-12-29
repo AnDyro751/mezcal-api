@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Validations in second step">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Update email before update address">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -181,14 +180,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="54158000" />
-    </task>
-    <task id="LOCAL-00036" summary="Add product and promotion code">
-      <created>1608257849997</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1608257849997</updated>
+      <workItem from="1608748947957" duration="54307000" />
     </task>
     <task id="LOCAL-00037" summary="Add coupon">
       <created>1608267714389</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609205562513</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Update email before update address">
+      <created>1609211985432</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1609211985432</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Show available payment methods" />
     <MESSAGE value="Card form" />
     <MESSAGE value="Replace" />
     <MESSAGE value="New lightbox" />
@@ -570,7 +568,8 @@
     <MESSAGE value="Agregar el required" />
     <MESSAGE value="Validations" />
     <MESSAGE value="Validations in second step" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validations in second step" />
+    <MESSAGE value="Update email before update address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update email before update address" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
