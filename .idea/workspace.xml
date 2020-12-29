@@ -11,11 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Validations in second step">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,14 +181,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="53340000" />
-    </task>
-    <task id="LOCAL-00035" summary="Add reviews in product">
-      <created>1607920639806</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1607920639806</updated>
+      <workItem from="1608748947957" duration="54158000" />
     </task>
     <task id="LOCAL-00036" summary="Add product and promotion code">
       <created>1608257849997</created>
@@ -529,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609202627732</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Validations in second step">
+      <created>1609205562513</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1609205562513</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,9 +614,9 @@
     </state>
     <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1609204615869" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609127201693">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609211464387">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1609127201693" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1609211464387" />
   </component>
 </project>
