@@ -10,17 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Actualizamos el envío y mandamos al next state">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/InputCoupon/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Payment/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Data/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Delivery/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingRate/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingRate/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingSelected/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ShippingSelected/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/base.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/base.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos botón para cupón">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/InputCoupon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/InputCoupon/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,14 +180,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="64235000" />
-    </task>
-    <task id="LOCAL-00044" summary="Remove console">
-      <created>1608516398395</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1608516398395</updated>
+      <workItem from="1608748947957" duration="64573000" />
     </task>
     <task id="LOCAL-00045" summary="Add address to checkout">
       <created>1608518104003</created>
@@ -534,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609347074767</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Mostramos botón para cupón">
+      <created>1609351512662</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1609351512662</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Todo funciona" />
     <MESSAGE value="Sin stock message" />
     <MESSAGE value="Select shippment types" />
     <MESSAGE value="State order" />
@@ -578,7 +568,8 @@
     <MESSAGE value="run mutation" />
     <MESSAGE value="Actualizamos el envío" />
     <MESSAGE value="Actualizamos el envío y mandamos al next state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizamos el envío y mandamos al next state" />
+    <MESSAGE value="Mostramos botón para cupón" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostramos botón para cupón" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -617,14 +608,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1609351481068">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1609351683481">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1609351481068" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1609351683481" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609216404770">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609351718054">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1609216404770" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1609351718054" />
   </component>
 </project>
