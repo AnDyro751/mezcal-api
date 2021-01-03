@@ -10,3 +10,4 @@
 //= require_tree .
 //= require spree/frontend/solidus_paypal_commerce_platform
 //= require spree/frontend/solidus_reviews
+//= require spree/frontend/solidus_stripe

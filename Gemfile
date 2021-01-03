@@ -25,6 +25,7 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'fog-aws'
 gem 'twilio-ruby'
 gem 'stripe'
+gem 'solidus_stripe', '~> 3.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

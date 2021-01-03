@@ -396,6 +396,10 @@ GEM
       solidus_core (>= 2.0.0, < 3)
       solidus_support (>= 0.5.1, < 1)
       solidus_webhooks (~> 0.2)
+    solidus_stripe (3.2.1)
+      activemerchant (>= 1.100)
+      solidus_core (>= 2.3, < 3)
+      solidus_support (~> 0.4)
     solidus_support (0.7.0)
     solidus_webhooks (0.3.0)
       solidus_core (>= 2.0.0, < 3)
@@ -479,6 +483,7 @@ DEPENDENCIES
   solidus_graphql_api!
   solidus_paypal_commerce_platform
   solidus_reviews!
+  solidus_stripe (~> 3.0)
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
