@@ -10,14 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init other checkout design">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/AddressForm/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/UserData/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/UserData/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/Select/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/base.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/base.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/select.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Inputs/select.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/tailwind.config.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="New form">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/OnePage/Delivery/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,14 +180,7 @@
       <workItem from="1608227401636" duration="52759000" />
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
-      <workItem from="1608748947957" duration="93531000" />
-    </task>
-    <task id="LOCAL-00052" summary="Redirect to payment page">
-      <created>1608591239860</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1608591239860</updated>
+      <workItem from="1608748947957" duration="93590000" />
     </task>
     <task id="LOCAL-00053" summary="Init payment page">
       <created>1608592285956</created>
@@ -531,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609644826241</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="New form">
+      <created>1609649061171</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1609649061171</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creación de orden y actualización del state" />
     <MESSAGE value="Pequeños detalles de la galería" />
     <MESSAGE value="Todas las páginas ya usan la nueva forma del apollo" />
     <MESSAGE value="Create checkout in mutation" />
@@ -575,7 +568,8 @@
     <MESSAGE value="Show credit card image" />
     <MESSAGE value="Antes de cagarla con stripe" />
     <MESSAGE value="Init other checkout design" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init other checkout design" />
+    <MESSAGE value="New form" />
+    <option name="LAST_COMMIT_MESSAGE" value="New form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -614,10 +608,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1609647704921">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1609649083189">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1609647704921" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1609649083189" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1609648928411">
       <screen x="0" y="0" width="1366" height="768" />
