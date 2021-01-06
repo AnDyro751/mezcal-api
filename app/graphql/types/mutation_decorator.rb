@@ -26,6 +26,7 @@ module Graphql
         return nil if state.nil?
 
         begin
+          current_order.update(state: :address)
           bill_address = current_order.bill_address.attributes
           bill_address.delete("id")
           update_params = {
