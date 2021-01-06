@@ -24,13 +24,14 @@ module Graphql
         state = Spree::State.find_by(id: state_id)
         puts "----state is nil" if state.nil?
         return nil if state.nil?
-        bill_address = current_order.bill_address.attributes
-        bill_address.delete("id")
-        update_params = {
-            bill_address: Spree::Address.new(bill_address),
-            ship_address: Spree::Address.new(bill_address)
-        }
+
         begin
+          bill_address = current_order.bill_address.attributes
+          bill_address.delete("id")
+          update_params = {
+              bill_address: Spree::Address.new(bill_address),
+              ship_address: Spree::Address.new(bill_address)
+          }
           if Spree::OrderUpdateAttributes.new(current_order, update_params).apply
             current_order.recalculate
             current_order
