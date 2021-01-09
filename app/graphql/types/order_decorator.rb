@@ -8,6 +8,11 @@ module Graphql
         base.field :adjustments, Graphql::Types::AdjustmentItem.connection_type, null: true
         base.field :available_payment_methods, SolidusGraphqlApi::Types::PaymentMethod.connection_type, null: true
         base.field :shipments, SolidusGraphqlApi::Types::Shipment.connection_type, null: true
+        base.field :shipment_adjustments, Graphql::Types::AdjustmentItem.connection_type, null: true
+      end
+
+      def shipment_adjustments
+        object.shipment_adjustments
       end
 
       def available_payment_methods
