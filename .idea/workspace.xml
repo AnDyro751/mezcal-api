@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos los descuentos de envio">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ListCoupons/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ListCoupons/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/applyCouponCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/applyCouponCode.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Agregamos los cupones de envio al state y los removemos del mismo">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/delivery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/delivery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,14 +183,7 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="1854000" />
-    </task>
-    <task id="LOCAL-00069" summary="State order_decorator.rb&#10;&#10;Flujo:&#10;Address&#10;Delivery&#10;Payment&#10;Confirm &#10;Complete">
-      <created>1608760925559</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1608760925560</updated>
+      <workItem from="1610167939341" duration="2093000" />
     </task>
     <task id="LOCAL-00070" summary="Se han arreglado los problemas de los cookies">
       <created>1608837058704</created>
@@ -527,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610219450586</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Agregamos los cupones de envio al state y los removemos del mismo">
+      <created>1610221419545</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1610221419545</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +547,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="run mutation" />
     <MESSAGE value="Actualizamos el envío" />
     <MESSAGE value="Actualizamos el envío y mandamos al next state" />
     <MESSAGE value="Mostramos botón para cupón" />
@@ -571,7 +571,8 @@
     <MESSAGE value="Creamos el payment method de stripe" />
     <MESSAGE value="Agregamos el JSON al payment method" />
     <MESSAGE value="Mostramos los descuentos de envio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mostramos los descuentos de envio" />
+    <MESSAGE value="Agregamos los cupones de envio al state y los removemos del mismo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregamos los cupones de envio al state y los removemos del mismo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -610,14 +611,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610219028764">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610221453916">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610219028764" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610221453916" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610219171373">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610221584463">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610219171373" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610221584463" />
   </component>
 </project>
