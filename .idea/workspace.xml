@@ -10,11 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init taxonomy &amp; taxon pages">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Breadcrumbs/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug].jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug]/[taxon].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug]/[taxon].jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostraamos los breadcrumbs">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/taxonomy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/taxonomy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -187,14 +184,7 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="18271000" />
-    </task>
-    <task id="LOCAL-00077" summary="Init stepper icon">
-      <created>1609097781409</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1609097781409</updated>
+      <workItem from="1610167939341" duration="18762000" />
     </task>
     <task id="LOCAL-00078" summary="Two steps">
       <created>1609099921333</created>
@@ -532,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610256026994</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Mostraamos los breadcrumbs">
+      <created>1610299136019</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1610299136019</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Form al cupón" />
     <MESSAGE value="Show credit card image" />
     <MESSAGE value="Antes de cagarla con stripe" />
     <MESSAGE value="Init other checkout design" />
@@ -576,7 +572,8 @@
     <MESSAGE value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
     <MESSAGE value="Mostramos los productos en el index y los agregamos al carrito sin problemas" />
     <MESSAGE value="Init taxonomy &amp; taxon pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init taxonomy &amp; taxon pages" />
+    <MESSAGE value="Mostraamos los breadcrumbs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostraamos los breadcrumbs" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -619,14 +616,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610298152237">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610299225307">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610298152237" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610299225307" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610298759861">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610299590124">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610298759861" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610299590124" />
   </component>
 </project>
