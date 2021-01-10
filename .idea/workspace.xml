@@ -10,10 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Agregamos los cupones de envio al state y los removemos del mismo">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/delivery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/delivery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/delivery.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos los datos necesarios en el checkout.js">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/completeCheckout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/moreState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/confirm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/confirm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,14 +185,7 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="2093000" />
-    </task>
-    <task id="LOCAL-00070" summary="Se han arreglado los problemas de los cookies">
-      <created>1608837058704</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1608837058705</updated>
+      <workItem from="1610167939341" duration="5036000" />
     </task>
     <task id="LOCAL-00071" summary="Ya arreglamos apollo 3:">
       <created>1608855883927</created>
@@ -528,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610221419545</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Mostramos los datos necesarios en el checkout.js">
+      <created>1610221660074</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1610221660074</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Actualizamos el envío" />
     <MESSAGE value="Actualizamos el envío y mandamos al next state" />
     <MESSAGE value="Mostramos botón para cupón" />
     <MESSAGE value="Aplicamos el cupón" />
@@ -572,7 +573,8 @@
     <MESSAGE value="Agregamos el JSON al payment method" />
     <MESSAGE value="Mostramos los descuentos de envio" />
     <MESSAGE value="Agregamos los cupones de envio al state y los removemos del mismo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregamos los cupones de envio al state y los removemos del mismo" />
+    <MESSAGE value="Mostramos los datos necesarios en el checkout.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostramos los datos necesarios en el checkout.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -616,9 +618,9 @@
     </state>
     <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610221453916" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610221584463">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610240425075">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610221584463" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610240425075" />
   </component>
 </project>
