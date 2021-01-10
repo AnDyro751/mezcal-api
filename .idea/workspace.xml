@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos las categorías y mandamos a &quot;ver todo&quot;">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/index.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos los productos en el index y los agregamos al carrito sin problemas">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug].jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug]/[slug].jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,14 +182,7 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="9385000" />
-    </task>
-    <task id="LOCAL-00074" summary="Todas las páginas ya usan la nueva forma del apollo">
-      <created>1608857994181</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1608857994181</updated>
+      <workItem from="1610167939341" duration="10052000" />
     </task>
     <task id="LOCAL-00075" summary="Create checkout in mutation">
       <created>1608930744850</created>
@@ -529,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610252631604</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Mostramos los productos en el index y los agregamos al carrito sin problemas">
+      <created>1610253615815</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1610253615815</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +546,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Show coupons" />
     <MESSAGE value="Show payment method" />
     <MESSAGE value="Form al cupón" />
     <MESSAGE value="Show credit card image" />
@@ -573,7 +570,8 @@
     <MESSAGE value="Mostramos el botón correspondiente para el formulario" />
     <MESSAGE value="Mostramos las categorías en el index" />
     <MESSAGE value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
+    <MESSAGE value="Mostramos los productos en el index y los agregamos al carrito sin problemas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostramos los productos en el index y los agregamos al carrito sin problemas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -612,14 +610,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610253366361">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610253693344">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253366361" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253693344" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610253404860">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610253652224">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253404860" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253652224" />
   </component>
 </project>
