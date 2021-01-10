@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos las categorías en el index">
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/taxonomy_decorator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListTaxons/Taxon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListTaxons/Taxon/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos las categorías y mandamos a &quot;ver todo&quot;">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -183,14 +184,7 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="8323000" />
-    </task>
-    <task id="LOCAL-00073" summary="Pequeños detalles de la galería">
-      <created>1608856616773</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1608856616773</updated>
+      <workItem from="1610167939341" duration="9385000" />
     </task>
     <task id="LOCAL-00074" summary="Todas las páginas ya usan la nueva forma del apollo">
       <created>1608857994181</created>
@@ -528,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610251730786</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="Mostramos las categorías y mandamos a &quot;ver todo&quot;">
+      <created>1610252631604</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1610252631604</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Aplicamos el cupón" />
     <MESSAGE value="Show coupons" />
     <MESSAGE value="Show payment method" />
     <MESSAGE value="Form al cupón" />
@@ -572,7 +572,8 @@
     <MESSAGE value="Mostramos los datos necesarios en el checkout.js" />
     <MESSAGE value="Mostramos el botón correspondiente para el formulario" />
     <MESSAGE value="Mostramos las categorías en el index" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mostramos las categorías en el index" />
+    <MESSAGE value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -599,10 +600,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="509" y="89" width="337" height="583" key="RollbackChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1608673730950" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1609911969118">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1610252904514">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1609911969118" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610252904514" />
     <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609901249550">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -611,14 +612,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610252293322">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610253366361">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610252293322" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253366361" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610252492800">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610253404860">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610252492800" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253404860" />
   </component>
 </project>
