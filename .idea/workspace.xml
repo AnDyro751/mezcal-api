@@ -10,10 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos los productos en el index y los agregamos al carrito sin problemas">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug].jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug]/[slug].jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init taxonomy &amp; taxon pages">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/taxonomy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug].jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/t/[slug].jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/query_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/query_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/taxonomy_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/taxonomy_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,14 +185,7 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="10052000" />
-    </task>
-    <task id="LOCAL-00075" summary="Create checkout in mutation">
-      <created>1608930744850</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1608930744850</updated>
+      <workItem from="1610167939341" duration="11810000" />
     </task>
     <task id="LOCAL-00076" summary="Init step">
       <created>1609087603307</created>
@@ -527,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610253615815</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Init taxonomy &amp; taxon pages">
+      <created>1610254349616</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1610254349617</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Show payment method" />
     <MESSAGE value="Form al cupón" />
     <MESSAGE value="Show credit card image" />
     <MESSAGE value="Antes de cagarla con stripe" />
@@ -571,7 +573,8 @@
     <MESSAGE value="Mostramos las categorías en el index" />
     <MESSAGE value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
     <MESSAGE value="Mostramos los productos en el index y los agregamos al carrito sin problemas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mostramos los productos en el index y los agregamos al carrito sin problemas" />
+    <MESSAGE value="Init taxonomy &amp; taxon pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init taxonomy &amp; taxon pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
@@ -610,14 +613,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610253693344">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610255313769">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253693344" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610255313769" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610253652224">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610255309184">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610253652224" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610255309184" />
   </component>
 </project>

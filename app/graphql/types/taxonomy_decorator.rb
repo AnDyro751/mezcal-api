@@ -5,11 +5,11 @@ module Graphql
   module Types
     module TaxonomyDecorator
       def self.prepended(base)
-        base.field :permalink, GraphQL::Types::String, null: true
+        base.field :products, SolidusGraphqlApi::Types::Product.connection_type, null: true
       end
 
-      def permalink
-        object.permalink
+      def products
+        object.products
       end
 
       SolidusGraphqlApi::Types::Taxon.prepend self
