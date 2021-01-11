@@ -10,11 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostraamos los breadcrumbs">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/taxonomy.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/taxonomy.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostraamos los breadcrumbs en las paginas de taxons">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews/new.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +52,16 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../JS/mezcal/pages/products" />
+      <recent name="$PROJECT_DIR$/app/controllers/my_store/spree" />
+      <recent name="$PROJECT_DIR$/app/controllers/my_store" />
+      <recent name="$PROJECT_DIR$/app/graphql/types" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/graphql/demo" />
       <recent name="$PROJECT_DIR$/app/graphql/types" />
       <recent name="$PROJECT_DIR$/app/graphql/mutations" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/controllers/my_store/spree" />
-      <recent name="$PROJECT_DIR$/app/controllers/my_store" />
-      <recent name="$PROJECT_DIR$/app/graphql/types" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: demo-ecommerce">
@@ -184,14 +187,7 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="18762000" />
-    </task>
-    <task id="LOCAL-00078" summary="Two steps">
-      <created>1609099921333</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1609099921333</updated>
+      <workItem from="1610167939341" duration="22518000" />
     </task>
     <task id="LOCAL-00079" summary="Agregamos el email a la orden">
       <created>1609130241808</created>
@@ -529,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610299136019</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Mostraamos los breadcrumbs en las paginas de taxons">
+      <created>1610299636234</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1610299636234</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Show credit card image" />
     <MESSAGE value="Antes de cagarla con stripe" />
     <MESSAGE value="Init other checkout design" />
     <MESSAGE value="New form" />
@@ -573,13 +575,14 @@
     <MESSAGE value="Mostramos los productos en el index y los agregamos al carrito sin problemas" />
     <MESSAGE value="Init taxonomy &amp; taxon pages" />
     <MESSAGE value="Mostraamos los breadcrumbs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mostraamos los breadcrumbs" />
+    <MESSAGE value="Mostraamos los breadcrumbs en las paginas de taxons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostraamos los breadcrumbs en las paginas de taxons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608744922290">
+    <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610328363016">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1608744922290" />
+    <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1610328363016" />
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -604,26 +607,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1610297078252" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1610252904514">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1610299630324">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610252904514" />
-    <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609901249550">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610299630324" />
+    <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610328015178">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1609901249550" />
+    <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1610328015178" />
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607648950020">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610299225307">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610330091150">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610299225307" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610330091150" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610299590124">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610327957199">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610299590124" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610327957199" />
   </component>
 </project>

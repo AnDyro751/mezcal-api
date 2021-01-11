@@ -21,7 +21,7 @@ module Graphql
       end
 
       def reviews
-        object.reviews
+        object.reviews.approved
       end
 
       def optionTypes
