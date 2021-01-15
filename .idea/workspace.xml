@@ -10,13 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostraamos los breadcrumbs en las paginas de taxons">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews/new.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Agregamos el formulario de agregar reseña">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ButtonStripeCheckout/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/graphql/types/source_item.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/spree/checkout/payment/_stripe_checkout.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/getPaymentMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/getPaymentMethods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demo-ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo-ecommerce.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/product_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/order_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/order_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/payment_method_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/payment_method_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,14 +195,8 @@
       <workItem from="1608647455599" duration="24161000" />
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
-      <workItem from="1610167939341" duration="22518000" />
-    </task>
-    <task id="LOCAL-00079" summary="Agregamos el email a la orden">
-      <created>1609130241808</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1609130241810</updated>
+      <workItem from="1610167939341" duration="23504000" />
+      <workItem from="1610468282152" duration="12334000" />
     </task>
     <task id="LOCAL-00080" summary="Agregar el required">
       <created>1609180102182</created>
@@ -532,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610299636234</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="Agregamos el formulario de agregar reseña">
+      <created>1610330561951</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1610330561951</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +560,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Antes de cagarla con stripe" />
     <MESSAGE value="Init other checkout design" />
     <MESSAGE value="New form" />
     <MESSAGE value="Metodo de pago" />
@@ -576,13 +584,14 @@
     <MESSAGE value="Init taxonomy &amp; taxon pages" />
     <MESSAGE value="Mostraamos los breadcrumbs" />
     <MESSAGE value="Mostraamos los breadcrumbs en las paginas de taxons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mostraamos los breadcrumbs en las paginas de taxons" />
+    <MESSAGE value="Agregamos el formulario de agregar reseña" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregamos el formulario de agregar reseña" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610328363016">
+    <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="400" y="188" width="556" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1610328363016" />
+    <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1610642311385" />
     <state x="416" y="133" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608082639194">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -607,10 +616,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1610297078252" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1610299630324">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1610330564971">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610299630324" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610330564971" />
     <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610328015178">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -619,14 +628,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610330091150">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610670872369">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610330091150" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610670872369" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610327957199">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610670441465">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610327957199" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610670441465" />
   </component>
 </project>

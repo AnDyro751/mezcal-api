@@ -1,14 +1,4 @@
 GIT
-  remote: https://github.com/AnDyro751/solidus_graphql_api.git
-  revision: 3b4c7c6d7b5031249b8ce94f87f616eeb2184d50
-  specs:
-    solidus_graphql_api (0.1.0)
-      batch-loader (>= 1.4.1, < 1.6.0)
-      graphql (>= 1.10, < 1.12)
-      solidus_core (>= 2.5, < 3)
-      solidus_support (~> 0.5)
-
-GIT
   remote: https://github.com/solidusio-contrib/solidus_reviews.git
   revision: dec46eae286fc03a0e83dc9b137ce72b28a72faf
   specs:
@@ -79,6 +69,23 @@ GIT
       truncate_html (~> 0.9, >= 0.9.2)
     solidus_sample (3.0.0.alpha)
       solidus_core (= 3.0.0.alpha)
+
+PATH
+  remote: ../solidus_graphql_api
+  specs:
+    solidus_graphql_api (0.1.0)
+      batch-loader (>= 1.4.1, < 1.6.0)
+      graphql (>= 1.10, < 1.12)
+      solidus_core (>= 2.5, < 3)
+      solidus_support (~> 0.5)
+
+PATH
+  remote: ../solidus_stripe
+  specs:
+    solidus_stripe (4.2.0)
+      activemerchant (>= 1.100)
+      solidus_core (>= 2.3, < 3)
+      solidus_support (~> 0.5)
 
 GEM
   remote: https://rubygems.org/
@@ -398,10 +405,6 @@ GEM
       solidus_core (>= 2.0.0, < 3)
       solidus_support (>= 0.5.1, < 1)
       solidus_webhooks (~> 0.2)
-    solidus_stripe (3.2.1)
-      activemerchant (>= 1.100)
-      solidus_core (>= 2.3, < 3)
-      solidus_support (~> 0.4)
     solidus_support (0.7.0)
     solidus_webhooks (0.3.0)
       solidus_core (>= 2.0.0, < 3)
@@ -485,7 +488,7 @@ DEPENDENCIES
   solidus_graphql_api!
   solidus_paypal_commerce_platform
   solidus_reviews!
-  solidus_stripe (~> 3.0)
+  solidus_stripe!
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)

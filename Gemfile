@@ -17,7 +17,9 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
-gem 'solidus_graphql_api', github: 'AnDyro751/solidus_graphql_api'
+# gem 'solidus_graphql_api', github: 'AnDyro751/solidus_graphql_api'
+gem 'solidus_graphql_api', path: '../solidus_graphql_api'
+gem 'solidus_stripe', path: '../solidus_stripe'
 gem 'solidus_reviews', github: 'solidusio-contrib/solidus_reviews'
 gem "graphiql-rails"
 gem "aws-sdk-s3", require: false
@@ -25,7 +27,6 @@ gem 'rack-cors', :require => 'rack/cors'
 gem 'fog-aws'
 gem 'twilio-ruby'
 gem 'stripe'
-gem 'solidus_stripe', '~> 3.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'

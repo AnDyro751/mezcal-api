@@ -9,6 +9,11 @@ module Graphql
         base.field :available_payment_methods, SolidusGraphqlApi::Types::PaymentMethod.connection_type, null: true
         base.field :shipments, SolidusGraphqlApi::Types::Shipment.connection_type, null: true
         base.field :shipment_adjustments, Graphql::Types::AdjustmentItem.connection_type, null: true
+        base.field :checkout_payment_method, SolidusGraphqlApi::Types::Payment, null: true
+      end
+
+      def checkout_payment_method
+        object.payments.find_by(state: 'checkout')
       end
 
       def shipment_adjustments
