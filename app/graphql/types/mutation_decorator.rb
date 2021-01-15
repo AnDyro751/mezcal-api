@@ -24,24 +24,38 @@ module Graphql
         end
       end
 
+      # Pasar esto a un webhook
       def completeOrder(session_id: nil)
-        return nil if current_order.nil?
-        this_order = Spree::CreditCard.find_by(gateway_payment_profile_id: session_id)
+        this_order = Spree::Order.find_by(checkout_identifier: session_id)
+        puts "---------#{this_order.nil?}----------"
         return nil if this_order.nil?
-        begin
-          current_session = Stripe::Checkout::Session.retrieve(session_id)
-          if current_session
-            if current_session.payment_status === "paid"
-              if current_order.state === "payment"
-                current_order.next
-                current_order.complete
+        if this_order.complete?
+          puts "--------DEBEMOS RETORNAR"
+          return this_order
+        else
+          begin
+            current_session = Stripe::Checkout::Session.retrieve(session_id)
+            if current_session
+              if current_session.payment_status === "paid"
+                if this_order.state === "payment"
+                  this_order.next
+                  if this_order.can_complete?
+                    this_order.complete
+                  else
+                    puts "--------NOSE puede completar"
+                    return nil
+                  end
+                else
+                  puts "--------NOSE puede completar 2"
+                end
               end
             end
+          rescue => e
+            puts "----------------#{e}----------error"
+            return nil
           end
-        rescue => e
-          puts "----------------#{e}----------error"
-          return nil
         end
+
 
       end
 
@@ -105,6 +119,7 @@ module Graphql
                                     success_url: 'http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}',
                                     cancel_url: 'http://localhost:3000/cart'
                                 })
+          current_order.update(checkout_identifier: session.id)
           return {checkout_id: session.id}
         rescue => e
           puts "----------------#{e}"
