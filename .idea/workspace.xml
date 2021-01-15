@@ -10,21 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Agregamos el formulario de agregar reseña">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ButtonStripeCheckout/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/graphql/types/source_item.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/spree/checkout/payment/_stripe_checkout.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Delivery/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/getPaymentMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/getPaymentMethods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/demo-ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo-ecommerce.iml" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Ya creamos el checkout  y lo insertamos en DB">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/success.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/completeOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/spree/admin/payments/source_views/_stripe_checkout.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/spree/api/payments/source_views/_stripe_checkout.json.jbuilder" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/order_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/order_decorator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/payment_method_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/payment_method_decorator.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +52,17 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../JS/mezcal/pages/products" />
-      <recent name="$PROJECT_DIR$/app/controllers/my_store/spree" />
-      <recent name="$PROJECT_DIR$/app/controllers/my_store" />
-      <recent name="$PROJECT_DIR$/app/graphql/types" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/graphql/demo" />
       <recent name="$PROJECT_DIR$/app/graphql/types" />
       <recent name="$PROJECT_DIR$/app/graphql/mutations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/spree/admin/payments" />
+      <recent name="$PROJECT_DIR$/app/views/spree/api/payments" />
+      <recent name="$PROJECT_DIR$/../../JS/mezcal/pages/products" />
+      <recent name="$PROJECT_DIR$/app/controllers/my_store/spree" />
+      <recent name="$PROJECT_DIR$/app/controllers/my_store" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: demo-ecommerce">
@@ -196,14 +189,7 @@
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
       <workItem from="1610167939341" duration="23504000" />
-      <workItem from="1610468282152" duration="12334000" />
-    </task>
-    <task id="LOCAL-00080" summary="Agregar el required">
-      <created>1609180102182</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1609180102182</updated>
+      <workItem from="1610468282152" duration="14879000" />
     </task>
     <task id="LOCAL-00081" summary="Validations">
       <created>1609199395096</created>
@@ -541,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610330561951</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Ya creamos el checkout  y lo insertamos en DB">
+      <created>1610671278258</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1610671278260</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +553,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init other checkout design" />
     <MESSAGE value="New form" />
     <MESSAGE value="Metodo de pago" />
     <MESSAGE value="Validamos que todos los campos sean distintos antes de volver a enviar la información de envío" />
@@ -585,7 +577,8 @@
     <MESSAGE value="Mostraamos los breadcrumbs" />
     <MESSAGE value="Mostraamos los breadcrumbs en las paginas de taxons" />
     <MESSAGE value="Agregamos el formulario de agregar reseña" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregamos el formulario de agregar reseña" />
+    <MESSAGE value="Ya creamos el checkout  y lo insertamos en DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ya creamos el checkout  y lo insertamos en DB" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
@@ -628,14 +621,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610670872369">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610672312848">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610670872369" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610672312848" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610670441465">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610673742617">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610670441465" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610673742617" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+Stripe.api_key = 'sk_test_51H9CZeBOcPJ0nbHctTzfQZhFXBnn8j05e0xqJ5RSVz5Bum72LsvmQKIecJnsoHISEg0jUWtKjERYGeCAEWiIAujP00Fae9MiKm'
 
 require_relative 'stripe_checkout_item'
 module Graphql
@@ -15,6 +16,33 @@ module Graphql
                    description: 'Update order state' do
           argument :state_id, GraphQL::Types::ID, required: true
         end
+        base.field :completeOrder,
+                   SolidusGraphqlApi::Types::Order,
+                   null: true,
+                   description: "Complete order" do
+          argument :session_id, GraphQL::Types::String, required: true
+        end
+      end
+
+      def completeOrder(session_id: nil)
+        return nil if current_order.nil?
+        this_order = Spree::CreditCard.find_by(gateway_payment_profile_id: session_id)
+        return nil if this_order.nil?
+        begin
+          current_session = Stripe::Checkout::Session.retrieve(session_id)
+          if current_session
+            if current_session.payment_status === "paid"
+              if current_order.state === "payment"
+                current_order.next
+                current_order.complete
+              end
+            end
+          end
+        rescue => e
+          puts "----------------#{e}----------error"
+          return nil
+        end
+
       end
 
       def updateStateOrder(state_id:)
@@ -49,7 +77,6 @@ module Graphql
       def createCheckout
         return nil if current_order.nil?
 
-        Stripe.api_key = 'sk_test_51H9CZeBOcPJ0nbHctTzfQZhFXBnn8j05e0xqJ5RSVz5Bum72LsvmQKIecJnsoHISEg0jUWtKjERYGeCAEWiIAujP00Fae9MiKm'
         begin
           session = Stripe::Checkout::Session
                         .create({
@@ -75,8 +102,8 @@ module Graphql
                                     #
                                     # Later on in the guide, you'll create a real success page, but no need to
                                     # do it yet.
-                                    success_url: 'https://example.com/success',
-                                    cancel_url: 'https://example.com/cancel',
+                                    success_url: 'http://localhost:3000/success?session_id={CHECKOUT_SESSION_ID}',
+                                    cancel_url: 'http://localhost:3000/cart'
                                 })
           return {checkout_id: session.id}
         rescue => e
