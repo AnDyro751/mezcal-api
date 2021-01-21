@@ -10,15 +10,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Vamos a un 70% de completar la orden con stripe checkout">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ButtonStripeCheckout/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/ButtonStripeCheckout/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Checkout/Payment/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/getPaymentMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/getPaymentMethods.js" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Al parecer ya hacemos todo lo necesario para completar la orden jeje">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/newReview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/removeCookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/site/headerItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews/new.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/success.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/my_store/order_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/my_store/order_decorator.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +41,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../JS/mezcal" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1jcjpBByHZlD5UDcAdps7F84UU4" />
@@ -191,14 +206,9 @@
       <workItem from="1608696047415" duration="7309000" />
       <workItem from="1608748947957" duration="124976000" />
       <workItem from="1610167939341" duration="23504000" />
-      <workItem from="1610468282152" duration="19935000" />
-    </task>
-    <task id="LOCAL-00082" summary="Validations">
-      <created>1609202015100</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1609202015100</updated>
+      <workItem from="1610468282152" duration="21897000" />
+      <workItem from="1610773297557" duration="4393000" />
+      <workItem from="1611171275359" duration="4708000" />
     </task>
     <task id="LOCAL-00083" summary="Validations in second step">
       <created>1609202627731</created>
@@ -536,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610673922680</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Al parecer ya hacemos todo lo necesario para completar la orden jeje">
+      <created>1610683525978</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1610683525978</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -555,7 +572,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Metodo de pago" />
     <MESSAGE value="Validamos que todos los campos sean distintos antes de volver a enviar la información de envío" />
     <MESSAGE value="Vamos a actualizar el costo de envio al seleccionar un nuevo estado" />
     <MESSAGE value="Actualizamos los nuevos envíos al seleccionar un estado" />
@@ -580,7 +596,8 @@
     <MESSAGE value="Agregamos el formulario de agregar reseña" />
     <MESSAGE value="Ya creamos el checkout  y lo insertamos en DB" />
     <MESSAGE value="Vamos a un 70% de completar la orden con stripe checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vamos a un 70% de completar la orden con stripe checkout" />
+    <MESSAGE value="Al parecer ya hacemos todo lo necesario para completar la orden jeje" />
+    <option name="LAST_COMMIT_MESSAGE" value="Al parecer ya hacemos todo lo necesario para completar la orden jeje" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
@@ -611,10 +628,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1610297078252" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1610330564971">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1610683511978">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610330564971" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1610683511978" />
     <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610328015178">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -623,14 +640,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1610681934233">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611190451024">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1610681934233" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611190451024" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1610683072018">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611191713888">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1610683072018" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611191713888" />
   </component>
 </project>

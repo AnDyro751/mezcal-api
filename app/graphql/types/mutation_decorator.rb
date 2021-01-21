@@ -22,6 +22,23 @@ module Graphql
                    description: "Complete order" do
           argument :session_id, GraphQL::Types::String, required: true
         end
+
+        base.field :addReviewToProduct,
+                   Graphql::Types::ReviewItem,
+                   null: true,
+                   description: "Add review to product" do
+          argument :product_id, GraphQL::Types::String, required: true, loads: SolidusGraphqlApi::Types::Product
+          argument :name, GraphQL::Types::String, required: true
+          argument :title, GraphQL::Types::String, required: true
+          argument :review, GraphQL::Types::String, required: true
+        end
+      end
+
+      def addReviewToProduct(product:, name:, title:, review:)
+        puts "----------#{product}"
+        # product_id = product_id
+        # product = Spree::Product.find_by(id: product_id)
+        # raise GraphQL::ExecutionError, 'Product not found' if product.nil?
       end
 
       # Pasar esto a un webhook
@@ -40,9 +57,15 @@ module Graphql
                 if this_order.state === "payment"
                   this_order.next
                   if this_order.can_complete?
+                    last_payment = this_order.payments.find_by(state: 'checkout')
+                    if last_payment
+                      if last_payment.source.nil?
+                        last_payment.complete
+                      end
+                    end
                     this_order.complete
+                    return this_order
                   else
-                    puts "--------NOSE puede completar"
                     return nil
                   end
                 else
@@ -96,18 +119,14 @@ module Graphql
                         .create({
                                     customer_email: current_order.email || nil,
                                     payment_method_types: ['card'],
-                                    allow_promotion_codes: true,
-                                    shipping_address_collection: {
-                                        allowed_countries: ["MX"]
-                                    },
-                                    billing_address_collection: "required",
+                                    allow_promotion_codes: false,
                                     line_items: [{
                                                      price_data: {
-                                                         currency: 'usd',
+                                                         currency: 'mxn',
                                                          product_data: {
-                                                             name: 'T-shirt',
+                                                             name: "Orden en #{current_store.name}",
                                                          },
-                                                         unit_amount: 2000,
+                                                         unit_amount: (current_order.total.to_f * 100).to_i,
                                                      },
                                                      quantity: 1,
                                                  }],
@@ -129,6 +148,10 @@ module Graphql
 
       def current_order
         context[:current_order]
+      end
+
+      def current_store
+        context[:current_store]
       end
 
       SolidusGraphqlApi::Types::Mutation.prepend self
