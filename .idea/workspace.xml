@@ -10,30 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Al parecer ya hacemos todo lo necesario para completar la orden jeje">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/newReview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/removeCookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/site/headerItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/products/reviews/new.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/success.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/success.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init redesign">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/BannerThree/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxon/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Taxonomy/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/ListProducts/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/queries/pages/products/show.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,14 +193,7 @@
       <workItem from="1610167939341" duration="23504000" />
       <workItem from="1610468282152" duration="21897000" />
       <workItem from="1610773297557" duration="4393000" />
-      <workItem from="1611171275359" duration="4708000" />
-    </task>
-    <task id="LOCAL-00083" summary="Validations in second step">
-      <created>1609202627731</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1609202627732</updated>
+      <workItem from="1611171275359" duration="7276000" />
     </task>
     <task id="LOCAL-00084" summary="Validations in second step">
       <created>1609205562513</created>
@@ -553,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610683525978</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Init redesign">
+      <created>1611192179945</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1611192179947</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +557,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Validamos que todos los campos sean distintos antes de volver a enviar la información de envío" />
     <MESSAGE value="Vamos a actualizar el costo de envio al seleccionar un nuevo estado" />
     <MESSAGE value="Actualizamos los nuevos envíos al seleccionar un estado" />
     <MESSAGE value="Hay un pinche error al correr la migración vlv" />
@@ -597,7 +581,8 @@
     <MESSAGE value="Ya creamos el checkout  y lo insertamos en DB" />
     <MESSAGE value="Vamos a un 70% de completar la orden con stripe checkout" />
     <MESSAGE value="Al parecer ya hacemos todo lo necesario para completar la orden jeje" />
-    <option name="LAST_COMMIT_MESSAGE" value="Al parecer ya hacemos todo lo necesario para completar la orden jeje" />
+    <MESSAGE value="Init redesign" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init redesign" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
@@ -640,14 +625,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611190451024">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611193881313">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611190451024" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611193881313" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611191713888">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611194545318">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611191713888" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611194545318" />
   </component>
 </project>
