@@ -10,12 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Formulario para agregar la reseña">
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos el avg rating">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/newReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/graphql/mutations/cart/newReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/mutation_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,14 +186,7 @@
       <workItem from="1610167939341" duration="23504000" />
       <workItem from="1610468282152" duration="21897000" />
       <workItem from="1610773297557" duration="4393000" />
-      <workItem from="1611171275359" duration="25610000" />
-    </task>
-    <task id="LOCAL-00088" summary="Select default address in checkout">
-      <created>1609215505908</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1609215505908</updated>
+      <workItem from="1611171275359" duration="25713000" />
     </task>
     <task id="LOCAL-00089" summary="run mutation">
       <created>1609216021675</created>
@@ -535,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611430070454</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Mostramos el avg rating">
+      <created>1611431406582</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1611431406582</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +550,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Iniciamos el primer paso del checkout" />
     <MESSAGE value="Update address" />
     <MESSAGE value="Actualizamos la orden" />
     <MESSAGE value="Mostramos los métodos de envío" />
@@ -579,7 +574,8 @@
     <MESSAGE value="Actualizamos la imagen del producto al visitar una nueva imagen" />
     <MESSAGE value="Init default style" />
     <MESSAGE value="Formulario para agregar la reseña" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulario para agregar la reseña" />
+    <MESSAGE value="Mostramos el avg rating" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostramos el avg rating" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
