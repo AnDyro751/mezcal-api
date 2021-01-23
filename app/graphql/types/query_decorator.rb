@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+require_relative 'promotion_item'
 module Graphql
   module Types
     module QueryDecorator
@@ -19,6 +20,18 @@ module Graphql
                    description: "Show taxonomy by permalink" do
           argument :permalink, GraphQL::Types::String, required: true
         end
+
+        base.field :header_promotion, Graphql::Types::PromotionItem,
+                   null: true,
+                   description: 'Get first promotion code' do
+        end
+      end
+
+
+      def header_promotion
+        promotion_category = Spree::PromotionCategory.find_by(code: 'header')
+        return nil if promotion_category.nil?
+        promotion = Spree::Promotion.find_by(promotion_category: promotion_category)
       end
 
       def taxon_by_permalink(permalink: nil)

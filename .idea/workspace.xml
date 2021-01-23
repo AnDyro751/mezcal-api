@@ -10,15 +10,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Actualizamos la imagen del producto al visitar una nueva imagen">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/Items/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init default style">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ProductShareButtons/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/graphql/types/promotion_item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/CounterSelector/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/primary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Buttons/primary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/LineItem/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/LineItem/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/Items/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/Items/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/checkout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Show/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/promotion_code_item.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/promotion_code_item.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/query_decorator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/query_decorator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +67,17 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/graphql/demo" />
-      <recent name="$PROJECT_DIR$/app/graphql/types" />
-      <recent name="$PROJECT_DIR$/app/graphql/mutations" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../../JS/mezcal/src/components" />
       <recent name="$PROJECT_DIR$/app/views/spree/admin/payments" />
       <recent name="$PROJECT_DIR$/app/views/spree/api/payments" />
       <recent name="$PROJECT_DIR$/../../JS/mezcal/pages/products" />
       <recent name="$PROJECT_DIR$/app/controllers/my_store/spree" />
-      <recent name="$PROJECT_DIR$/app/controllers/my_store" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/graphql/demo" />
+      <recent name="$PROJECT_DIR$/app/graphql/types" />
+      <recent name="$PROJECT_DIR$/app/graphql/mutations" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: demo-ecommerce">
@@ -193,14 +206,7 @@
       <workItem from="1610167939341" duration="23504000" />
       <workItem from="1610468282152" duration="21897000" />
       <workItem from="1610773297557" duration="4393000" />
-      <workItem from="1611171275359" duration="12397000" />
-    </task>
-    <task id="LOCAL-00086" summary="Update email before update address">
-      <created>1609212149402</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1609212149402</updated>
+      <workItem from="1611171275359" duration="24233000" />
     </task>
     <task id="LOCAL-00087" summary="Update address">
       <created>1609213966478</created>
@@ -538,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611204553702</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Init default style">
+      <created>1611291782900</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1611291782900</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +570,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hay un pinche error al correr la migración vlv" />
     <MESSAGE value="Vamos a usar el checkout normal" />
     <MESSAGE value="Iniciamos el primer paso del checkout" />
     <MESSAGE value="Update address" />
@@ -582,7 +594,8 @@
     <MESSAGE value="Init redesign" />
     <MESSAGE value="Init home page" />
     <MESSAGE value="Actualizamos la imagen del producto al visitar una nueva imagen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizamos la imagen del producto al visitar una nueva imagen" />
+    <MESSAGE value="Init default style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init default style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
@@ -625,14 +638,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611291496935">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611426096957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611291496935" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611426096957" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611291709995">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611426061657">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611291709995" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611426061657" />
   </component>
 </project>
