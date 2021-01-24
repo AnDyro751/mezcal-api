@@ -10,10 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Init responsive product list">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/BannerThree/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/BannerThree/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Header responsive">
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,14 +187,7 @@
       <workItem from="1610167939341" duration="23504000" />
       <workItem from="1610468282152" duration="21897000" />
       <workItem from="1610773297557" duration="4393000" />
-      <workItem from="1611171275359" duration="29466000" />
-    </task>
-    <task id="LOCAL-00092" summary="Actualizamos el envío y mandamos al next state">
-      <created>1609347074767</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1609347074767</updated>
+      <workItem from="1611171275359" duration="29990000" />
     </task>
     <task id="LOCAL-00093" summary="Mostramos botón para cupón">
       <created>1609351512662</created>
@@ -534,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611448222412</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Header responsive">
+      <created>1611449426448</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1611449426448</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +551,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creamos el payment method de stripe" />
     <MESSAGE value="Agregamos el JSON al payment method" />
     <MESSAGE value="Mostramos los descuentos de envio" />
     <MESSAGE value="Agregamos los cupones de envio al state y los removemos del mismo" />
@@ -578,7 +575,8 @@
     <MESSAGE value="Basado en x reseñas" />
     <MESSAGE value="Mostramos las reseñas" />
     <MESSAGE value="Init responsive product list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init responsive product list" />
+    <MESSAGE value="Header responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header responsive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
