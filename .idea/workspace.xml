@@ -10,10 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Basado en x reseñas">
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Mostramos las reseñas">
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ListProducts/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/lib/apollo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,14 +192,7 @@
       <workItem from="1610167939341" duration="23504000" />
       <workItem from="1610468282152" duration="21897000" />
       <workItem from="1610773297557" duration="4393000" />
-      <workItem from="1611171275359" duration="26619000" />
-    </task>
-    <task id="LOCAL-00090" summary="Actualizamos el envío">
-      <created>1609218787663</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1609218787663</updated>
+      <workItem from="1611171275359" duration="28245000" />
     </task>
     <task id="LOCAL-00091" summary="Actualizamos el envío">
       <created>1609218799170</created>
@@ -534,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611431497629</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Mostramos las reseñas">
+      <created>1611446579418</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1611446579418</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +556,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Actualizamos la orden" />
     <MESSAGE value="Mostramos los métodos de envío" />
     <MESSAGE value="Creamos el payment method de stripe" />
     <MESSAGE value="Agregamos el JSON al payment method" />
@@ -578,7 +580,8 @@
     <MESSAGE value="Formulario para agregar la reseña" />
     <MESSAGE value="Mostramos el avg rating" />
     <MESSAGE value="Basado en x reseñas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basado en x reseñas" />
+    <MESSAGE value="Mostramos las reseñas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mostramos las reseñas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
@@ -621,14 +624,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611446513216">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611447837582">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611446513216" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611447837582" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611430118381">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611447375128">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611430118381" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611447375128" />
   </component>
 </project>
