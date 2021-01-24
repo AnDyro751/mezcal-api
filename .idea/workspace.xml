@@ -10,8 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Product responsive ful">
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/gallery/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/gallery/index.jsx" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Gallery full functional">
+      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/public/static/locales/es/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/BannerThree/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/BannerThree/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/Items/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/Items/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/Reviews/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Product/data/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/ProductShareButtons/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/ProductShareButtons/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Products/Item/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/NewReview/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/Selecter/item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Reviews/Selecter/item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,14 +198,7 @@
       <workItem from="1610167939341" duration="23504000" />
       <workItem from="1610468282152" duration="21897000" />
       <workItem from="1610773297557" duration="4393000" />
-      <workItem from="1611171275359" duration="30754000" />
-    </task>
-    <task id="LOCAL-00096" summary="Show payment method">
-      <created>1609391557881</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1609391557881</updated>
+      <workItem from="1611171275359" duration="32938000" />
     </task>
     <task id="LOCAL-00097" summary="Form al cupón">
       <created>1609608613717</created>
@@ -531,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611450612292</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Gallery full functional">
+      <created>1611450714582</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1611450714582</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +562,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mostramos los datos necesarios en el checkout.js" />
     <MESSAGE value="Mostramos el botón correspondiente para el formulario" />
     <MESSAGE value="Mostramos las categorías en el index" />
     <MESSAGE value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
@@ -575,7 +586,8 @@
     <MESSAGE value="Header responsive fixed" />
     <MESSAGE value="Producto responsive 70%" />
     <MESSAGE value="Product responsive ful" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product responsive ful" />
+    <MESSAGE value="Gallery full functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gallery full functional" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
@@ -618,14 +630,14 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="491" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1607648950020" />
-    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611449352238">
+    <state x="389" y="132" width="718" height="592" key="find.popup" timestamp="1611452086521">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611449352238" />
+    <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1611452086521" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611450346916">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1611452537363">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611450346916" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1611452537363" />
   </component>
 </project>
