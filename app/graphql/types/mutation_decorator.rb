@@ -73,7 +73,7 @@ module Graphql
                     this_order
                   end
                 else
-                  puts '--------NOSE puede completar 2'
+                  puts "--------NOSE puede completar 2 #{this_order.attributes}"
                 end
               end
             end
