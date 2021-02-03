@@ -10,22 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Creamos un pequeño footer y lo completamos">
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/public/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/MainPromotion/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/BannerWelcome/Cards/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/BannerWelcome/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/BannerThree/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/BannerThree/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/ListLineItems/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Cart/Show/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/Items/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/Items/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Headers/Public/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Layout/application.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/components/Pages/Index/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/src/site/info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../JS/mezcal/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JS/mezcal/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d18b2263-d34e-4969-814b-126aab2df906" name="Default Changelist" comment="Design mobile page">
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../JS/mezcal" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1jcjpBByHZlD5UDcAdps7F84UU4" />
@@ -206,14 +192,7 @@
       <workItem from="1611759936004" duration="881000" />
       <workItem from="1611859414591" duration="2357000" />
       <workItem from="1612038676586" duration="7533000" />
-      <workItem from="1612194706126" duration="5689000" />
-    </task>
-    <task id="LOCAL-00099" summary="Antes de cagarla con stripe">
-      <created>1609621993915</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1609621993915</updated>
+      <workItem from="1612194706126" duration="6114000" />
     </task>
     <task id="LOCAL-00100" summary="Init other checkout design">
       <created>1609644826240</created>
@@ -551,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611712819221</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Design mobile page">
+      <created>1612321503324</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1612321503325</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +556,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mostramos las categorías y mandamos a &quot;ver todo&quot;" />
     <MESSAGE value="Mostramos los productos en el index y los agregamos al carrito sin problemas" />
     <MESSAGE value="Init taxonomy &amp; taxon pages" />
     <MESSAGE value="Mostraamos los breadcrumbs" />
@@ -595,7 +580,8 @@
     <MESSAGE value="Gallery full functional" />
     <MESSAGE value="Creamos un pequeño footer" />
     <MESSAGE value="Creamos un pequeño footer y lo completamos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creamos un pequeño footer y lo completamos" />
+    <MESSAGE value="Design mobile page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design mobile page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="400" y="188" width="588" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610642311385">
@@ -626,10 +612,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="187" y="18" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1610297078252" />
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1612321493881">
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1612321510164">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1612321493881" />
+    <state x="278" y="119" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1612321510164" />
     <state x="289" y="0" width="778" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1610328015178">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -643,9 +629,9 @@
     </state>
     <state x="389" y="132" width="718" height="592" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1612315589884" />
     <state x="754" y="15" width="1391" height="753" key="find.popup/0.0.2646.768@0.0.2646.768" timestamp="1608579989011" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1612314039723">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1612321871176">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1612314039723" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1612321871176" />
   </component>
 </project>

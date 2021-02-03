@@ -17,9 +17,9 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
-# gem 'solidus_graphql_api', github: 'AnDyro751/solidus_graphql_api'
-gem 'solidus_graphql_api', path: '../solidus_graphql_api'
-gem 'solidus_stripe', path: '../solidus_stripe'
+gem 'solidus_graphql_api', github: 'AnDyro751/solidus_graphql_api'
+# gem 'solidus_graphql_api', path: '../solidus_graphql_api'
+gem 'solidus_stripe', github: 'AnDyro751/solids_stripe' # path: '../solidus_stripe'
 gem 'solidus_reviews', github: 'solidusio-contrib/solidus_reviews'
 gem "graphiql-rails"
 gem "aws-sdk-s3", require: false

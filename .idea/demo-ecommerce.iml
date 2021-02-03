@@ -29,47 +29,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="solidus_graphql_api (v0.1.0) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/app" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/bin" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/lib" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.git" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/docs" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/spec" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.idea" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/config" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.github" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.circleci" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/app" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/bin" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/lib" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.git" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/docs" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/spec" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.idea" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/config" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.github" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.circleci" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/bin" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.git" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/docs" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/spec" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.idea" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/config" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.github" />
-          <root url="file://$MODULE_DIR$/../solidus_graphql_api/.circleci" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="solidus_stripe (v4.2.0) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
